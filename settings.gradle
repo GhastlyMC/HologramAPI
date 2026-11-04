@@ -1,0 +1,4 @@
+rootProject.name = 'hologram'
+include 'core'
+include 'api'
+include 'v1_12_R1'

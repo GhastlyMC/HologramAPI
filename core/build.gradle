@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation project(':api')
+    runtimeOnly project(':v1_12_R1')
+
+    compileOnly "org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT"
+}
