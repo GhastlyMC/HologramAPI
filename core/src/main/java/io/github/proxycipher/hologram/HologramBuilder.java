@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.*;
 
-public class HologramBuilder {
+public final class HologramBuilder {
 
     private static final double LINE_OFFSET = 0.25;
 

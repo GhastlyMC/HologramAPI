@@ -2,7 +2,7 @@ package io.github.proxycipher.hologram;
 
 import org.bukkit.Bukkit;
 
-public class NMS {
+public final class NMS {
 
     private static VersionSupport versionSupport;
 
